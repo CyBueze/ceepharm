@@ -1,0 +1,74 @@
+
+/* Remove border, outline, and background from the navbar-toggler */
+.navbar-toggler {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+/* Ensure the border is removed on focus */
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Ensure the border is removed on active state */
+.navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Style the SVG inside the navbar-toggler */
+.navbar-toggler svg {
+  width: 32px; /* Adjust size as needed */
+  height: 32px; /* Adjust size as needed */
+}
+
+/* Optional: Change color when the navbar is expanded */
+.navbar-toggler[aria-expanded="true"] svg {
+  fill: black; /* Change color when the navbar is expanded */
+}
+
+
+span {
+  color: green;
+}
+
+.btn svg, .btn img.svg-white {
+  width: 20px;
+  height: auto;
+  fill: white;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+#logo svg{
+  width: 30px;
+}
+
+
+footer h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: #007bff;
+}
+
+footer p {
+  margin-bottom: 0.5rem;
+}
